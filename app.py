@@ -38,9 +38,12 @@ st.markdown("""
 st.markdown('<div class="title">💌 Thiệp Mời Đặc Biệt 💌</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Gửi đến Dương Phan Vân Ngọc - Cậu rảnh không? Mình có kèo nè 😚</div>', unsafe_allow_html=True)
 
+# Ảnh bé Pam
+st.image("2f33e82dc25abd1b91becba7f968ff4e.jpg", caption="Bé Pam cute gửi lời mời nè 💕", use_column_width=True)
+
 st.divider()
 
-st.write("📍 **Thời gian**: 2h chiều | Ngày đi chơi nè!")  
+st.write("📍 **Thời gian**: 2h chiều, ngày 10/05")  
 st.write("📍 **Đón tại**: 02 Cửu Long")  
 st.write("🎒 **Dresscode**: Mặc gì cũng được, miễn là cậu thấy xinh ✨")
 
@@ -75,5 +78,3 @@ with col2:
         st.warning("Tèn ten... Vậy để hôm khác mình rủ lại nha 😢")
 
 st.markdown('<br><div class="note">(Sau khi cậu chọn, nhớ nhắn mình biết nữa nha 😄)</div>', unsafe_allow_html=True)
-
-# Ảnh bé Pam sẽ được thêm sau khi bạn gửi
